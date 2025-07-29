@@ -1,0 +1,38 @@
+name: moyunzhijiao
+description: "墨韵智教"
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  # 图标
+  cupertino_icons: ^1.0.8
+  remixicon: ^1.2.0 #Remix图标
+
+  # 框架、工具
+  get: ^4.6.6 #状态管理、路由管理、国际化
+  logger: ^2.0.2 #日志
+  hive: 2.2.3 #持久化存储
+  hive_flutter: 1.1.0 #持久化存储
+  
+  flutter:
+    sdk: flutter
+
+  # Widget
+  flutter_smart_dialog: ^4.9.2 #各种弹窗 Toast/Dialog/Popup
+
+  # 系统交互
+  window_manager: ^0.4.3 #窗口管理
+  intl: ^0.20.2
+
+dev_dependencies:
+  hive_generator: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+  uses-material-design: true
