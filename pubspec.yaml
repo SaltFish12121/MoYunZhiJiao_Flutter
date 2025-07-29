@@ -15,12 +15,13 @@ dependencies:
   logger: ^2.0.2 #日志
   hive: 2.2.3 #持久化存储
   hive_flutter: 1.1.0 #持久化存储
-  
+
   flutter:
     sdk: flutter
 
   # Widget
   flutter_smart_dialog: ^4.9.2 #各种弹窗 Toast/Dialog/Popup
+  flutter_swiper_view: ^1.1.6
 
   # 系统交互
   window_manager: ^0.4.3 #窗口管理

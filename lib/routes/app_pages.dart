@@ -22,7 +22,7 @@ class AppPages {
     // 书法教学视频
     GetPage(
       name: RoutePath.kCalligraphyTeachingVideo,
-      page: () => const CalligraphyTeachingvideoPage(),
+      page: () => const CalligraphyTeachingVideoPage(),
       bindings: [
         BindingsBuilder.put(() => CalligraphyTeachingvideoController()),
       ],

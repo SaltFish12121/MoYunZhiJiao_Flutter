@@ -32,11 +32,6 @@ class Constant {
       index: 4,
     ),
   };
-
-  static const String kBiliBili = "bilibili";
-  static const String kDouyu = "douyu";
-  static const String kHuya = "huya";
-  static const String kDouyin = "douyin";
 }
 
 class HomePageItem {

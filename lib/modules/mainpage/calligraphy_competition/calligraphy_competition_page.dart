@@ -8,18 +8,13 @@ class CalligraphyCompetitionPage
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home Page'),
-      ),
-      body: Center(
-        child: Text(
-          'Welcome to the Home Page!',
-          style: TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
+    return Container(
+      height: MediaQuery.of(context).size.height * 0.2,
+      color: Colors.orange[100],
+      alignment: Alignment.center,
+      child: const Text(
+        '下部区域',
+        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
       ),
     );
   }
